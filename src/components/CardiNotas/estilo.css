@@ -1,0 +1,52 @@
+.cardi-nota {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--fundo-detalhes);
+    border-radius: 4px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+  }
+  .cardi-nota_cabecalho {
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cardi-nota_texto {
+    margin-top: 8px;
+    font-size: 1em;
+  }
+  .cardi-nota_comentario {
+    margin-top: 8px;
+    padding: 4px;
+    border: none;
+    background-color: var(--fundo-detalhes);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+
+
+ .cardi-nota_input{
+  margin-top: 8px;
+    padding: 4px;
+    border: none;
+    background-color: powderblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  
+  .cardi-nota_titulo {
+    font-size: 1.2em;
+    margin-right: 12px;
+  }
+
+  .cardi-nota_submit {
+    align-self: flex-start;
+    background-color: var(--secundaria);
+    color: rgb(38, 117, 27);
+    font-weight: 400;
+  }
